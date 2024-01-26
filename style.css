@@ -1,0 +1,108 @@
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    text-decoration: underline green;
+    text-decoration-skip-ink: none;
+    padding-bottom: 1px;
+}
+
+.download {
+    background-color: rgba(11, 222, 11, 0.529);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 5px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.download:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+#name {
+    color: rgba(68, 241, 68, 0.855);
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #fdfdfd3c;
+    margin-left: 150px;
+}
+
+#name:hover {
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+#postn {
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 4px #43be0ea7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+#introimg {
+    width: 550px;
+    height: 500px;
+    float: right;
+    border-radius: 30%;
+    margin-top: 100px;
+    transition: transform 0.3s ease;
+    border: 10px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+}
+#introimg:hover{
+    transform: scale(1.1);
+}
+
+#abttxt {
+    margin-top: 100px;
+    color: rgba(21, 249, 21, 0.855);
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #fdfdfd44;
+    text-align: center;
+}
+
+#abttxt:hover {
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+#summry {
+    color: white;
+    font-size: 20px;
+}
+
+#myimg {
+    width: 400px;
+    height: 550px;
+    margin-top: 30px;
+    margin-left: 70px;
+    transition: transform 0.3s ease;
+}
+
+#myimg:hover {
+    transform: scale(1.1);
+}
+#introduction{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: black;
+}
