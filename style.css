@@ -51,7 +51,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     background-color: black;
-    
+
 }
 
 #introimg {
@@ -61,9 +61,11 @@ body {
     border-radius: 30%;
     margin-top: 100px;
     transition: transform 0.3s ease;
-    border: 10px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    /* Semi-transparent white border */
 }
-#introimg:hover{
+
+#introimg:hover {
     transform: scale(1.1);
 }
 
@@ -96,7 +98,8 @@ body {
 #myimg:hover {
     transform: scale(1.1);
 }
-#introduction{
+
+#introduction {
     margin: 0;
     padding: 0;
     background-image: url(./images/bg2.jpg);
@@ -105,4 +108,54 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     background-color: black;
+}
+
+#skills {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#skill {
+    margin-top: 100px;
+    color: rgba(21, 249, 21, 0.855);
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #fdfdfd44;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#skill:hover {
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(22, 68, 10, 0.475); /* 0.8 sets the opacity to 80% */
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+/* Optional: Add styles for better presentation */
+h2 {
+    margin-top: 0;
+    color: #efe9e9;
+}
+
+p2 {
+    color: #efe9e9;
 }
